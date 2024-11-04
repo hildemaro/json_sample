@@ -5,8 +5,29 @@
             "version": "1.1.1"
         },
         {
-            "name": "commons-lang3",
-            "version": "3.12.0"
+            "name": "log4j",
+            "version": "1.2.17", 
+            "notes": "Vulnerable a CVE-2019-17571 - ejecución remota de código en el SocketServer de Log4j"
+        },
+        {
+            "name": "commons-collections",
+            "version": "3.2.1",
+            "notes": "Vulnerable a CVE-2015-7501 - ejecución remota de código debido a serialización insegura"
+        },
+        {
+            "name": "jackson-databind",
+            "version": "2.6.7",
+            "notes": "Vulnerable a múltiples CVEs relacionados con la deserialización de datos no confiables"
+        },
+        {
+            "name": "spring-core",
+            "version": "4.2.0.RELEASE",
+            "notes": "Vulnerable a CVE-2016-5007 - posible ejecución remota de código en ciertas configuraciones"
+        },
+        {
+            "name": "struts2-core",
+            "version": "2.3.1.2",
+            "notes": "Vulnerable a CVE-2017-5638 - ejecución remota de código"
         }
     ]
 }
