@@ -2,7 +2,7 @@
 
 Este es un proyecto simple en Java que imprime "Hola, mundo!" y muestra una lista de dependencias desde un archivo JSON.
 
-## Requisitos
+### Requisitos
 
 Asegúrate de tener instalada la biblioteca `json-simple`.
 
